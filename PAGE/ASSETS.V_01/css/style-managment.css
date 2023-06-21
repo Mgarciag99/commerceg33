@@ -1,0 +1,100 @@
+.main{
+    display: flex;
+    gap: 3em;
+}
+.main-sidebar{
+    flex: 20%;
+    border-right: 1px solid #ccc;
+    padding: 1em;
+}
+.main-content{
+    flex: 80%;
+    padding: 1em;
+}
+.container{
+    width: 70%;
+}
+
+.main-sidebar-header{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 1.5em;
+}
+.main-sidebar-header label{
+    color: #ccc;
+}
+.main-sidebar-header img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.main-section{
+    margin-bottom: 1.5em;
+}
+.main-sidebar .main-section ul li{
+    border-radius: 10px;
+    transition: 500ms all;
+    margin-bottom: 1em;
+}
+.main-sidebar .main-section ul li a{
+    color: #4c4c4c;
+    display: block;
+    width: 100%;
+    padding: 1em;
+}
+.active-li{
+    border-radius: 10px;
+    background-color: #ccc;
+    margin-left: -5px;
+}
+.main-sidebar .main-section ul li:hover{
+    background-color: #ccc;
+    margin-left: -5px;
+}
+.button-item{
+    width: 100%;
+}
+.button-medium{
+    width: 50%;
+}
+
+
+.card-order{
+    padding: 1em;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    border-radius: 15px;
+}
+.c-two{
+    display: flex;
+    flex-direction: column;
+}
+.badge-info{
+    background-color: #5D00FF;
+    padding: 0.8em;
+    border: none;
+    color: #fff;
+    font-weight: 800;
+    border-radius: 15px;
+}
+.c-one h2{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.c-one h4{
+    font-size: 1.2em;
+}
+.c-one span{
+    display: block;
+    color: #ccc;
+    margin-bottom: 1em;
+}
+
+a{
+    color: #000;
+}

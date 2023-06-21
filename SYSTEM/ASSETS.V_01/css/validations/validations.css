@@ -1,0 +1,59 @@
+.has-error{
+	color: #a94442;
+	border-radius: 5px;
+	border: 1px solid #a94442;
+	position: relative;
+}
+.form-control{
+	margin-bottom: 0px;
+}
+
+p.note {
+  font-size: 1rem;
+  color: red;
+}
+
+label {
+/*  width: 300px;*/
+ 
+/*  display: inline-block;*/
+/*  margin-top: 20px;*/
+}
+
+label span {
+  font-size: 1rem;
+}
+
+label.error {
+    color: #FF5959;
+    font-size: 1.4rem;
+    display: block;
+    margin-top: 5px;
+    order: 3;
+}
+
+/*errors label    */
+
+input.error {
+    font-weight: 300;
+    color: #FF5959;
+}
+select.error {
+    border: 1px dashed #FF5959;
+    font-weight: 300;
+}
+.container-select{
+	position: relative;
+	display: flex;
+	flex-direction: column; 
+}
+select{
+	order: 1;
+}
+
+
+.input-group label.error{
+  width: inherit;
+  position: absolute;
+  top: 2.7rem;
+}

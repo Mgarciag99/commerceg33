@@ -1,0 +1,67 @@
+.list-panel{
+    /* width: 70%; */
+}
+.list-panel ul li{
+    justify-content: space-between;
+    gap: 10em;
+}
+.li-panel-img{
+    flex: 20%;
+}
+.li-panel-content{
+    flex: 80%;
+}
+#container-items-car-shop a{
+    color: #000;
+}
+
+.title{
+    padding: 0em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+.t-underline{
+    text-decoration: underline;
+}
+.total{
+    font-size: 2em;
+    text-align: center;
+    color: #4c4c4c;
+}
+#total{
+    color: #000; 
+}   
+
+
+/* forms */
+.item-main-content{
+    margin-bottom: 2em;
+}
+.item-main-content h3{
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+.flex-items{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 1em;
+    gap: 1em;
+}   
+.no-center{
+    align-items: initial;
+}
+
+.flex-items label{
+    width: 40%;
+}
+.flex-items input{
+    width: 60%;
+}
+
+.single textarea{
+    width: 85%;
+}
+.single label{
+    width: 20%;
+}
